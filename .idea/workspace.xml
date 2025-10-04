@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a0897b-4570-4d98-ab35-db3ee6aa84f4" name="Changes" comment="first step">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0a0897b-4570-4d98-ab35-db3ee6aa84f4" name="Changes" comment="test fail action" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +48,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for tests.test_client_api.test_get_users.executor": "Run",
     "Python tests.Python tests for tests.test_client_api.test_get_without_api_key.executor": "Run",
+    "Python tests.Python tests for tests.test_client_api.test_post.executor": "Run",
     "Python tests.pytest for tests.test_client_api.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -61,7 +60,7 @@
       <recent name="C:\GitHub\core_api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_client_api.test_get_without_api_key">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_client_api.test_post">
     <configuration name="py 3.13 local" type="PythonConfigurationType" factoryName="Python">
       <module name="core_api" />
       <option name="ENV_FILES" value="" />
@@ -115,6 +114,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_client_api.test_post" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="core_api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_client_api.test_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for tests.test_client_api" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="core_api" />
       <option name="ENV_FILES" value="" />
@@ -136,10 +150,12 @@
       <item itemvalue="Python.py 3.13 local" />
       <item itemvalue="Python tests.Python tests for tests.test_client_api.test_get_users" />
       <item itemvalue="Python tests.Python tests for tests.test_client_api.test_get_without_api_key" />
+      <item itemvalue="Python tests.Python tests for tests.test_client_api.test_post" />
       <item itemvalue="Python tests.pytest for tests.test_client_api" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_client_api.test_post" />
         <item itemvalue="Python tests.Python tests for tests.test_client_api.test_get_without_api_key" />
         <item itemvalue="Python tests.Python tests for tests.test_client_api.test_get_users" />
         <item itemvalue="Python tests.pytest for tests.test_client_api" />
@@ -177,12 +193,38 @@
       <option name="project" value="LOCAL" />
       <updated>1759562802435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Dockerfile and yml (CI)">
+      <option name="closed" value="true" />
+      <created>1759580602837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759580602837</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Dockerfile and yml (CI)">
+      <option name="closed" value="true" />
+      <created>1759580707540</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759580707540</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test fail action">
+      <option name="closed" value="true" />
+      <created>1759580919170</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759580919170</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
     <MESSAGE value="first step" />
-    <option name="LAST_COMMIT_MESSAGE" value="first step" />
+    <MESSAGE value="add Dockerfile and yml (CI)" />
+    <MESSAGE value="test fail action" />
+    <option name="LAST_COMMIT_MESSAGE" value="test fail action" />
   </component>
 </project>

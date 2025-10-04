@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Build Docker
+    - name: Build
       run: docker build -t api-tests .
-    - name: Tests inside container
+    - name: Tests
       run: docker run --rm api-tests
