@@ -1,0 +1,13 @@
+name: Run API Tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build Docker
+      run: docker build -t api-tests .
+    - name: Run tests inside container
+      run: docker run --rm api-tests
